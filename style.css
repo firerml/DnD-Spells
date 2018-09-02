@@ -1,0 +1,17 @@
+.spell-card {
+    background-color: cornflowerblue;
+}
+
+.extra-info {
+    display: none;
+}
+
+.expand-button-row {
+	text-align: center;
+}
+
+.expand-button {
+	font-size: 25px;
+    color: purple;
+    cursor: pointer;
+}
