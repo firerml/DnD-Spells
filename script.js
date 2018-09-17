@@ -1,12 +1,6 @@
 $(function() {
-	
-	var expandButton = $(".expand-button");
-
-	$(".expand-button").click(function() {
-
-		$(".extra-info").slideToggle(250, function () {
-			
+    $(".expand-button").click(function() {
+        info = $(this).closest(".spell-card").find(".extra-info")
+        info.slideToggle(250);
     });
-	});
-
 });
