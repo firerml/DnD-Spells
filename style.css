@@ -1,5 +1,21 @@
 .spell-card {
-    background-color: cornflowerblue;
+    display: table;
+    background-color: beige;
+    border: 1px solid black;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.name-row {
+    display: table-row;
+}
+
+.card-row {
+    display: table-row;
+}
+
+.card-cell {
+    display: table-cell;
 }
 
 .extra-info {
@@ -7,11 +23,15 @@
 }
 
 .expand-button-row {
-	text-align: center;
+    display: table-row;
+    text-align: right;
 }
 
 .expand-button {
-	font-size: 25px;
-    color: purple;
+    font-size: 25px;
+    color: white;
     cursor: pointer;
+    padding: 2px 0px;
+    border-radius: 10px;
+    background-color: black;
 }
