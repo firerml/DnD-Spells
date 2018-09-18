@@ -2,20 +2,28 @@
     display: table;
     background-color: beige;
     border: 1px solid black;
-    width: 250px;
+    border-collapse: collapse;
+    width: 300px;
     margin-bottom: 10px;
 }
 
-.name-row {
+.spell-row {
     display: table-row;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-.card-row {
-    display: table-row;
+.spell-name {
+    float: left;
+    font-size: 20px;
 }
 
-.card-cell {
-    display: table-cell;
+.spell-level {
+    float: right;
+    font-size: 20px;
+}
+
+.spell-cell {
 }
 
 .extra-info {
@@ -29,9 +37,6 @@
 
 .expand-button {
     font-size: 25px;
-    color: white;
+    color: black;
     cursor: pointer;
-    padding: 2px 0px;
-    border-radius: 10px;
-    background-color: black;
 }
