@@ -42,5 +42,5 @@ for i in range(413, 466):
     spells.append(scrape_data(i))
 print()
 
-with open('dnd_spells.json', 'w') as f:
+with open('../data/dnd_spells.json', 'w') as f:
     json.dump(spells, f)
